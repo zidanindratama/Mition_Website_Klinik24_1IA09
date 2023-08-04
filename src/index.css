@@ -3,6 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  .button-primary {
+    @apply font-semibold text-white;
+  }
+
+  .heading__small {
+    @apply text-primary-dark text-[32px] font-semibold;
+  }
+
+  .text__heading-small {
+    @apply text__heading text-primary-text-gray text-[16px];
+  }
+}
+
 h1,
 h2,
 h3,
@@ -16,4 +30,56 @@ li,
 a,
 p {
   font-family: "Sora", sans-serif;
+}
+
+.blue-button {
+  border-radius: 100px;
+  background: linear-gradient(141deg, #3a8ef6 0%, #6f3afa 100%);
+  box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+  padding: 16px 28px;
+}
+
+.white-button {
+  border-radius: 100px;
+  background: #fff;
+  box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+  padding: 16px 28px;
+}
+
+.outline-button {
+  border-radius: 100px;
+  border: 1px solid #fff;
+  box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
+  padding: 16px 28px;
+}
+
+.heading__big {
+  background: linear-gradient(141deg, #3a8ef6 0%, #6f3afa 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text__heading {
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.card_services {
+  border-radius: 24px;
+  box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
+}
+
+.reservasi__box {
+  border-radius: 32px;
+  background: linear-gradient(141deg, #3a8ef6 0%, #6f3afa 100%);
+  box-shadow: 0px 20px 24px 0px rgba(65, 132, 247, 0.24);
+}
+
+.card__testimonial {
+  border-radius: 32px;
+  background: #fff;
+  box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
 }
