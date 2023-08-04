@@ -2,10 +2,12 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LandingPage, Login, Register, Error } from "./pages";
 import { Footer, Navbar } from "./components";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 const App = () => {
   return (
     <Router>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
