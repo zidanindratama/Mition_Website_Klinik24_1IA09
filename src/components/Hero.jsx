@@ -29,7 +29,7 @@ const Hero = () => {
               />
             </Link>
           </div>
-          <div className="mx-auto md:order-last order-first">
+          <div className="flex justify-end md:order-last order-first">
             <img src={heroDoctor} alt="" />
           </div>
         </div>
