@@ -8,7 +8,7 @@ const Fasilitas = () => {
   return (
     <>
       <div className="w-full bg-primary-gray-bg py-24">
-        <div className="md:max-w-[1480px] m-auto grid md:grid-cols-2 max-w-[600px] px-4 md:px-0">
+        <div className="xl:max-w-[1280px] m-auto grid md:grid-cols-2 max-w-[600px] px-4 md:px-0">
           <div className="md:mt-32 mt-11">
             <h1 className="heading__small">
               Menghadirkan Kemewahan yang Tak Tertanding, Fasilitas Mewah untuk

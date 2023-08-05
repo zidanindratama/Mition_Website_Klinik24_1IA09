@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <div className="w-full bg-primary-dark pt-24 pb-12">
-        <div className="md:max-w-[1480px] m-auto max-w-[600px] px-4 md:px-0 grid md:grid-cols-4 grid-cols-2 items-center gap-20">
+        <div className="xl:max-w-[1280px] m-auto max-w-[600px] px-4 md:px-0 grid md:grid-cols-4 grid-cols-2 items-center gap-20">
           <div className="flex flex-col col-span-2 md:col-span-1">
             <Link to="/">
               <img src={logoFooter} alt="" />

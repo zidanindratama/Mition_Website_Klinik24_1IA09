@@ -10,7 +10,7 @@ import { hospital7 } from "../assets";
 const Register = () => {
   return (
     <div className="w-full bg-primary-gray-bg py-48">
-      <div className="md:max-w-[1480px] max-w-[600px] px-4 md:px-0 m-auto grid md:grid-cols-2 grid-cols-1 items-center gap-12">
+      <div className="xl:max-w-[1280px] max-w-[600px] px-4 md:px-0 m-auto grid md:grid-cols-2 grid-cols-1 items-center gap-12">
         <div className="mx-auto">
           <div className="flex flex-col">
             <img src={hospital7} alt="" className="rounded-lg" />

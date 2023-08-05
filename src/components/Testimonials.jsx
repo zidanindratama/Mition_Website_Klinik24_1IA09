@@ -6,7 +6,7 @@ const Testimonials = () => {
   return (
     <>
       <div className="w-full bg-primary-gray-bg py-24">
-        <div className="md:max-w-[1480px] m-auto max-w-[600px] px-4 md:px-0">
+        <div className="xl:max-w-[1280px] m-auto max-w-[600px] px-4 md:px-0">
           <div className="text-center">
             <h1 className="heading__small">Testimonial Dari Beberapa Pasien</h1>
             <p className="text__heading-small max-w-2xl mx-auto mt-6">

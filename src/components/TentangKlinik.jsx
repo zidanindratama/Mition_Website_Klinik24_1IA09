@@ -7,7 +7,7 @@ import { hospital13 } from "../assets";
 const TentangKlinik = () => {
   return (
     <div className="w-full bg-primary-gray-bg py-36">
-      <div className="md:max-w-[1480px] m-auto max-w-[600px] px-4 md:px-0 grid md:grid-cols-2 grid-cols-1 items-center">
+      <div className="xl:max-w-[1280px] m-auto max-w-[600px] px-4 md:px-0 grid md:grid-cols-2 grid-cols-1 items-center">
         <div className="flex flex-col">
           <h1 className="heading__big text-[40px] mt-10 md:mt-0">
             Layanan Klinik 24

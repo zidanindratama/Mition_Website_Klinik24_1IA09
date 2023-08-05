@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full h-[80px] fixed bg-primary-gray-bg/80 backdrop-blur-md">
-        <div className="md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4">
+        <div className="xl:max-w-[1280px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4">
           <div>
             <Link to="/">
               <img src={logoSVG} alt="" />
