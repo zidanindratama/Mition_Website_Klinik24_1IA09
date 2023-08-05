@@ -18,7 +18,7 @@ const CTA = () => {
           <p className="text__heading-small text-justify mt-[20px] mb-[30px]">
             Mulailah konsultasi dengan mendaftar secara gratis.
           </p>
-          <Link to="pelayanan">
+          <Link to="/pelayanan">
             <Button
               icon={<CiStethoscope size={30} />}
               style={

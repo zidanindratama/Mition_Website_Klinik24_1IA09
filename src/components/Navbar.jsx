@@ -27,8 +27,8 @@ const Navbar = () => {
               <Link className="text-primary-text-gray" to="/pelayanan">
                 Layanan
               </Link>
-              <Link className="text-primary-text-gray" to="/bmi">
-                BMI Kalkulator
+              <Link className="text-primary-text-gray" to="/dokter">
+                Dokter
               </Link>
             </ul>
           </div>
@@ -67,8 +67,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="p-4">
-              <Link className="text-primary-text-gray" to="/bmi">
-                BMI Kalkulator
+              <Link className="text-primary-text-gray" to="/dokter">
+                Dokter
               </Link>
             </li>
             <div className="flex flex-col my-4 gap-4">

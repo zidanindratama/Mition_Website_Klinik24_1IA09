@@ -24,6 +24,10 @@ import pasien1 from "./pasien-1.jpg";
 import pasien2 from "./pasien-2.jpg";
 import pasien3 from "./pasien-3.jpg";
 import pasien4 from "./pasien-4.jpg";
+import dokter1 from "./dokter-1.jpg";
+import dokter2 from "./dokter-2.jpg";
+import dokter3 from "./dokter-3.jpg";
+import dokter4 from "./dokter-4.jpg";
 
 export {
   logoSVG,
@@ -52,4 +56,8 @@ export {
   pasien2,
   pasien3,
   pasien4,
+  dokter1,
+  dokter2,
+  dokter3,
+  dokter4,
 };

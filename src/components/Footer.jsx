@@ -50,8 +50,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link className="text-[16px] text-white font-light" to="/bmi">
-                  BMI Kalkulator
+                <Link
+                  className="text-[16px] text-white font-light"
+                  to="/dokter"
+                >
+                  Dokter
                 </Link>
               </li>
             </ul>
