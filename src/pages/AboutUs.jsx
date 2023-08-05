@@ -37,7 +37,7 @@ const AboutUs = () => {
             />
           </div>
           <div>
-            <p className="text-primary-text-gray text-justify font-light">
+            <p className="text-primary-text-gray text-justify font-normal">
               Kami dengan bangga mempersembahkan proyek web kami yang inovatif
               dan menarik, bertemakan e-health, sebagai hasil kerja keras kami
               dalam lomba di bidang web design. Kami tim yang terdiri dari
@@ -45,20 +45,20 @@ const AboutUs = () => {
               menyediakan akses mudah dan cepat ke layanan kesehatan berkualitas
               bagi masyarakat.
             </p>
-            <p className="text-primary-text-gray text-justify font-light my-10">
+            <p className="text-primary-text-gray text-justify font-normal my-10">
               Visi kami adalah menciptakan sebuah platform digital yang
               menghadirkan solusi kesehatan yang terjangkau dan terpercaya,
               sehingga setiap individu dapat dengan mudah mengakses informasi,
               konsultasi medis, dan layanan kesehatan dari kenyamanan rumah
               mereka sendiri.
             </p>
-            <p className="text-primary-text-gray text-justify font-light my-10">
+            <p className="text-primary-text-gray text-justify font-normal my-10">
               Misi kami adalah menghadirkan pengalaman online yang menarik dan
               mudah digunakan bagi pengguna
             </p>
             <Link
               to="https://github.com/zidanindratama"
-              className="underline text-primary-blue font-light"
+              className="underline text-primary-blue font-normal"
             >
               Tim E-Health Web Project.
             </Link>

@@ -5,7 +5,8 @@ export default {
     colors: {
       "primary-gray-bg": "#f8fafb",
       "secondary-gray-bg": "#E2EDFF",
-      "primary-text-gray": "#9aadc7",
+      // "primary-text-gray": "#9aadc7",
+      "primary-text-gray": "#6D737A",
       "primary-dark": "#0A0E31",
       "primary-blue-dark": "#1678F2",
       "primary-purple": "#855FCE",

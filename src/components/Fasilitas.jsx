@@ -33,7 +33,7 @@ const Fasilitas = () => {
             </Link>
           </div>
           <div className="mx-auto md:order-last order-first">
-            <img src={fasilitas} alt="" className="w-[450px] md:w-full" />
+            <img src={fasilitas} alt="" className="w-[300px] md:w-full" />
           </div>
         </div>
       </div>

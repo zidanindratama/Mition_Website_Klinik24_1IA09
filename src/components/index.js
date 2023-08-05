@@ -1,12 +1,15 @@
 import Button from "./Button";
+import CTA from "./CTA";
 import Fasilitas from "./Fasilitas";
 import Footer from "./Footer";
+import FormKlinik from "./FormKlinik";
 import Hero from "./Hero";
 import Hospital from "./Hospital";
 import Navbar from "./Navbar";
 import Pelayanan from "./Pelayanan";
 import Reservasi from "./Reservasi";
 import Services from "./Services";
+import TentangKlinik from "./TentangKlinik";
 import Testimonials from "./Testimonials";
 
 export {
@@ -20,4 +23,7 @@ export {
   Reservasi,
   Testimonials,
   Footer,
+  TentangKlinik,
+  CTA,
+  FormKlinik,
 };
