@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { LandingPage, Login, Register, Error } from "./pages";
+import { LandingPage, Login, Register, Error, AboutUs } from "./pages";
 import { Footer, Navbar } from "./components";
 import ScrollToTop from "./helpers/ScrollToTop";
 
@@ -13,6 +13,7 @@ const App = () => {
         <Route path="/" element={<LandingPage />} />
         <Route path="login" element={<Login />} />
         <Route path="register" element={<Register />} />
+        <Route path="tentang-kami" element={<AboutUs />} />
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

@@ -12,6 +12,10 @@ import hospital5 from "./rumah_sakit-5.png";
 import hospital6 from "./rumah_sakit-6.jpg";
 import hospital7 from "./rumah_sakit-7.jpg";
 import hospital8 from "./rumah_sakit-8.jpg";
+import hospital9 from "./rumah_sakit-9.jpg";
+import hospital10 from "./rumah_sakit-10.jpg";
+import hospital11 from "./rumah_sakit-11.jpg";
+import hospital12 from "./rumah_sakit-12.jpg";
 import pelayanan from "./pelayanan_landing.png";
 import fasilitas from "./fasilitas_landing.png";
 import pasien1 from "./pasien-1.jpg";
@@ -34,6 +38,10 @@ export {
   hospital6,
   hospital7,
   hospital8,
+  hospital9,
+  hospital10,
+  hospital11,
+  hospital12,
   pelayanan,
   fasilitas,
   pasien1,
