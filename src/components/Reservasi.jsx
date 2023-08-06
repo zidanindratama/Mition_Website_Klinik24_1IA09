@@ -10,7 +10,7 @@ const Reservasi = () => {
       <div className="w-full bg-primary-gray-bg py-24">
         <div className="xl:max-w-[1280px] m-auto max-w-[600px] px-4 md:px-0">
           <div className="text-center p-16 reservasi__box">
-            <h1 className="heading__small text-white text-[32px]">
+            <h1 className="heading__small text-white md:text-[32px] text-[25px]">
               Reservasi Pelayanan Kami Sekarang
             </h1>
             <p className="text__heading-small text-white md:max-w-2xl mx-auto py-10">

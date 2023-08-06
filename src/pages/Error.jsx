@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Error = () => {
   return (
     <div className="w-full bg-primary-gray-bg py-48">
-      <div className="xl:max-w-[1280px] max-w-[600px] px-4 md:px-0 m-auto grid md:grid-cols-2 grid-cols-1 items-center gap-12">
+      <div className="xl:max-w-6xl max-w-[600px] px-4 md:px-0 m-auto grid md:grid-cols-2 grid-cols-1 items-center gap-12">
         <div className="">
           <h1 className="heading__big md:text-[60px] text-[40px]">ERROR 404</h1>
           <h1 className="text-[30px] font-medium mt-8 mb-11">

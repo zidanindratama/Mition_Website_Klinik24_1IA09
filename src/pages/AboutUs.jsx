@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AboutUs = () => {
   return (
     <div className="w-full bg-primary-gray-bg py-36">
-      <div className="xl:max-w-[1280px] m-auto max-w-[600px] px-4 md:px-0">
+      <div className="xl:max-w-6xl m-auto max-w-[600px] px-4 md:px-0">
         <div className="flex-flex-row">
           <h1 className="heading__big text-[40px]">Tentang Klinik 24</h1>
           <p className="text-primary-dark font-semibold mt-2 mb-10">

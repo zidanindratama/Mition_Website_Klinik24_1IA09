@@ -8,9 +8,9 @@ const Hero = () => {
   return (
     <>
       <div className="w-full bg-primary-gray-bg py-24">
-        <div className="xl:max-w-[1280px] m-auto grid md:grid-cols-2 max-w-[600px] px-4 md:px-0">
+        <div className="xl:max-w-6xl m-auto grid md:grid-cols-2 max-w-[600px] px-4 md:px-0">
           <div className="my-auto">
-            <h1 className="heading__big md:text-[60px] text-[30px] text-center md:text-left">
+            <h1 className="heading__big md:text-[40px] xl:text-[50px] text-[30px] text-center md:text-left">
               Klinik 24 siap melayani keluhan masyarakat selama 24/7.
             </h1>
             <p className="text__heading text__heading-small text-justify pt-[10px] pb-[30px]">

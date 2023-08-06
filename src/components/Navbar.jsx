@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full h-[80px] fixed bg-primary-gray-bg/80 backdrop-blur-md">
-        <div className="xl:max-w-[1280px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4">
+        <div className="xl:max-w-6xl max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4">
           <div>
             <Link to="/">
               <img src={logoSVG} alt="" />
@@ -75,7 +75,7 @@ const Navbar = () => {
               <Link to="register">
                 <Button
                   icon={<CiStethoscope size={30} />}
-                  style={"flex justify-center items-center blue-button"}
+                  style={"flex justify-center items-center blue-button w-full"}
                   text={"Register Pasien"}
                 />
               </Link>

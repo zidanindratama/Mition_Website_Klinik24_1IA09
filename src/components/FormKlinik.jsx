@@ -6,7 +6,7 @@ import Button from "./Button";
 const FormKlinik = () => {
   return (
     <div className="w-full bg-primary-gray-bg py-36">
-      <div className="md:max-w-[1140px] m-auto max-w-[600px] px-4 md:px-0">
+      <div className="md:max-w-5xl m-auto max-w-[600px] px-4 md:px-0">
         <div className="flex flex-col">
           <h1 className="heading__small text-center max-w-2xl mx-auto">
             Kami Senang Mendengarkan Kabar Darimu, Hubungi Kami Sekarang
