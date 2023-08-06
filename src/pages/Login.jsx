@@ -11,7 +11,10 @@ const Login = () => {
   return (
     <div className="w-full bg-primary-gray-bg py-28">
       <div className="xl:max-w-6xl max-w-[600px] px-4 md:px-0 m-auto grid md:grid-cols-2 grid-cols-1 items-center gap-12">
-        <div className="col-span-1 md:col-span-2 mt-10 md:block hidden">
+        <div
+          className="col-span-1 md:col-span-2 mt-10 md:block hidden"
+          data-aos="fade-down"
+        >
           <div className="flex flex-col">
             <h1 className="font-semibold text-[40px]">Login Untuk</h1>
             <h1 className="font-semibold text-[40px]">Mereservasi Ke Dokter</h1>
@@ -23,13 +26,13 @@ const Login = () => {
             </p>
           </div>
         </div>
-        <div className="mx-auto">
+        <div className="mx-auto" data-aos="fade-right">
           <div className="flex flex-col">
             <img src={hospital6} alt="" className="rounded-lg" />
           </div>
         </div>
         <div className="mt-10 md:mt-0">
-          <div className="flex flex-col mb-10 md:hidden">
+          <div className="flex flex-col mb-10 md:hidden" data-aos="fade-down">
             <h1 className="font-semibold text-[40px]">Login Untuk</h1>
             <h1 className="font-semibold text-[40px]">Mereservasi Ke Dokter</h1>
             <p className="text-[18px] mt-3">
@@ -39,7 +42,7 @@ const Login = () => {
               </Link>
             </p>
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col" data-aos="fade-left">
             <div>
               <p className="mb-2 text-primary-text-gray font-light md:block hidden">
                 Email
@@ -72,7 +75,7 @@ const Login = () => {
               text={"Login"}
             />
           </div>
-          <div className="flex flex-col mt-10">
+          <div className="flex flex-col mt-10" data-aos="fade-left">
             <p className="text-primary-text-gray font-light text-center">
               Atau login dengan
             </p>

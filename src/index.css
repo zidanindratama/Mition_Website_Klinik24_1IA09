@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  overflow-x: hidden !important;
+}
+
 @layer base {
   .button-primary {
     @apply font-semibold text-white;

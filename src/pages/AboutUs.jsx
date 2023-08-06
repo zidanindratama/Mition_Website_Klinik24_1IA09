@@ -6,15 +6,21 @@ const AboutUs = () => {
   return (
     <div className="w-full bg-primary-gray-bg py-36">
       <div className="xl:max-w-6xl m-auto max-w-[600px] px-4 md:px-0">
-        <div className="flex-flex-row">
+        <div className="flex-flex-row" data-aos="fade-down">
           <h1 className="heading__big text-[40px]">Tentang Klinik 24</h1>
           <p className="text-primary-dark font-semibold mt-2 mb-10">
             Kami bertujuan untuk memberikan pengalaman pengguna yang
             menyenangkan dan bermanfaat
           </p>
         </div>
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-12 items-center">
-          <div className="grid grid-cols-2 overflow-hidden gap-2">
+        <div
+          className="grid md:grid-cols-2 grid-cols-1 gap-12 items-center"
+          data-aos="fade-right"
+        >
+          <div
+            className="grid grid-cols-2 overflow-hidden gap-2"
+            data-aos="fade-left"
+          >
             <img
               src={hospital9}
               alt=""
@@ -36,7 +42,7 @@ const AboutUs = () => {
               className="w-full object-cover rounded-md"
             />
           </div>
-          <div>
+          <div data-aos="fade-left">
             <p className="text-primary-text-gray text-justify font-normal">
               Kami dengan bangga mempersembahkan proyek web kami yang inovatif
               dan menarik, bertemakan e-health, sebagai hasil kerja keras kami

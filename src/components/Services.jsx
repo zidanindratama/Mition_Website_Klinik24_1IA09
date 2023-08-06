@@ -10,8 +10,18 @@ const Services = () => {
       <div className="w-full bg-primary-gray-bg py-24">
         <div className="xl:max-w-6xl m-auto max-w-[600px] px-4 md:px-0">
           <div className="grid md:grid-cols-2 mb-[30px]">
-            <h1 className="heading__small pb-[30px] md:pb-0">Daftar Layanan</h1>
-            <p className="text__heading-small text-justify">
+            <h1
+              className="heading__small pb-[30px] md:pb-0"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+            >
+              Daftar Layanan
+            </h1>
+            <p
+              className="text__heading-small text-justify"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
               Kami bangga menyediakan beragam layanan kesehatan yang luar biasa
               untuk memenuhi segala kebutuhan Anda. Dengan tim medis
               berpengalaman yang penuh semangat, teknologi terkini, dan

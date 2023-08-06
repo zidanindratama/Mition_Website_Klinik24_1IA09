@@ -5,7 +5,12 @@ import { Link } from "react-router-dom";
 
 const CardService = ({ title, description, icon, background }) => {
   return (
-    <div className="flex flex-col bg-white card__services p-10 rounded-lg w-max m-auto my-[30px]">
+    <div
+      className="flex flex-col bg-white card__services p-10 rounded-lg w-max m-auto my-[30px]"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="3000"
+    >
       <div className={`p-6 ${background} rounded-full w-max`}>{icon}</div>
       <h1 className="text-[24px] text-primary-dark font-medium leading-[21px] py-6">
         {title}

@@ -9,7 +9,11 @@ const Hero = () => {
     <>
       <div className="w-full bg-primary-gray-bg py-24">
         <div className="xl:max-w-6xl m-auto grid md:grid-cols-2 max-w-[600px] px-4 md:px-0">
-          <div className="my-auto">
+          <div
+            className="my-auto"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <h1 className="heading__big md:text-[40px] xl:text-[50px] text-[30px] text-center md:text-left">
               Klinik 24 siap melayani keluhan masyarakat selama 24/7.
             </h1>
@@ -29,7 +33,11 @@ const Hero = () => {
               />
             </Link>
           </div>
-          <div className="flex justify-end md:order-last order-first">
+          <div
+            className="flex justify-end md:order-last order-first"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <img src={heroDoctor} alt="" />
           </div>
         </div>

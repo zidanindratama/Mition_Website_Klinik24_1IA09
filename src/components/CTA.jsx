@@ -8,10 +8,10 @@ const CTA = () => {
   return (
     <div className="w-full bg-secondary-gray-bg py-24">
       <div className="xl:max-w-6xl m-auto max-w-[600px] px-4 md:px-0 grid md:grid-cols-2 grid-cols-1 items-center gap-16">
-        <div className="flex justify-end">
+        <div className="flex justify-end" data-aos="fade-right">
           <img src={hospital14} alt="" className="rounded-lg" />
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col" data-aos="fade-left">
           <h1 className="heading__small">
             Gabunglah dengan Platform Klinik Premium di Indonesia Hari Ini
           </h1>

@@ -9,15 +9,22 @@ const TentangKlinik = () => {
     <div className="w-full bg-primary-gray-bg py-36">
       <div className="xl:max-w-6xl m-auto max-w-[600px] px-4 md:px-0 grid md:grid-cols-2 grid-cols-1 items-center gap-8">
         <div className="flex flex-col">
-          <h1 className="heading__big text-[40px] mt-10 md:mt-0">
+          <h1
+            className="heading__big text-[40px] mt-10 md:mt-0"
+            data-aos="fade-down"
+          >
             Layanan Klinik 24
           </h1>
-          <p className="text__heading-small mt-2 mb-10">
+          <p className="text__heading-small mt-2 mb-10" data-aos="fade-down">
             Kami bertujuan untuk memberikan pengalaman pengguna yang
             menyenangkan dan bermanfaat
           </p>
           <div className="grid md:grid-cols-2 justify-center">
-            <div className="py-6 flex">
+            <div
+              className="py-6 flex"
+              data-aos="fade-up"
+              data-aos-duration="5000"
+            >
               <div className="p-4 bg-[#E9F8F3] rounded-xl">
                 <CiStethoscope size={30} style={{ color: `#1A906B` }} />
               </div>
@@ -26,7 +33,11 @@ const TentangKlinik = () => {
                 <p className="text-[#6D737A]">Dokter Umum</p>
               </div>
             </div>
-            <div className="py-6 flex">
+            <div
+              className="py-6 flex"
+              data-aos="fade-up"
+              data-aos-duration="4000"
+            >
               <div className="p-4 bg-[#FFFAF5] rounded-xl">
                 <LiaUserNurseSolid size={30} style={{ color: `#FFC27A` }} />
               </div>
@@ -35,7 +46,11 @@ const TentangKlinik = () => {
                 <p className="text-[#6D737A]">Perawat</p>
               </div>
             </div>
-            <div className="py-6 flex">
+            <div
+              className="py-6 flex"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
               <div className="p-4 bg-[#FFEEF0] rounded-xl">
                 <GiSyringe size={30} style={{ color: `#ED4459` }} />
               </div>
@@ -44,7 +59,11 @@ const TentangKlinik = () => {
                 <p className="text-[#6D737A]">Dokter Spesialis</p>
               </div>
             </div>
-            <div className="py-6 flex">
+            <div
+              className="py-6 flex"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <div className="p-4 bg-[#F0F7FF] rounded-xl">
                 <GiMedicalDrip size={30} style={{ color: `#0075FD` }} />
               </div>
@@ -55,7 +74,10 @@ const TentangKlinik = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-end md:order-last order-first">
+        <div
+          className="flex justify-end md:order-last order-first"
+          data-aos="fade-left"
+        >
           <img src={hospital13} alt="" className="rounded-lg" />
         </div>
       </div>

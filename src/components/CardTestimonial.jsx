@@ -5,6 +5,7 @@ const CardTestimonial = ({ id, nama, penyakit, deskripsi, foto }) => {
     <div
       className="flex flex-col bg-white card__testimonial p-10 rounded-lg w-max m-auto my-[30px]"
       key={id}
+      data-aos="fade-down"
     >
       <h1 className="italic text-primary-dark max-w-md text-[20px] font-light">
         "{deskripsi}"

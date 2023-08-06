@@ -23,7 +23,7 @@ const DokterDetail = () => {
   return (
     <div className="w-full bg-primary-gray-bg py-36">
       <div className="xl:max-w-6xl m-auto max-w-[600px] px-4 md:px-0 grid md:grid-cols-2 gap-20 items-center">
-        <div className="flex flex-col">
+        <div className="flex flex-col" data-aos="fade-right">
           <div>
             <img
               src={dokter.photos[currentPhotoIndex]}
@@ -45,7 +45,7 @@ const DokterDetail = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col" data-aos="fade-left">
           <p className="text-primary-green text-[40px] font-bold mb-5">
             $ {dokter.harga}{" "}
             <span className="text-primary-text-gray text-[20px]">/sesi</span>

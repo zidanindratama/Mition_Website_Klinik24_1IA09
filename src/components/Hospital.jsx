@@ -16,11 +16,41 @@ const Hospital = () => {
             Partner & Friend
           </h1>
           <div className="flex flex-row flex-wrap items-center gap-32 justify-center">
-            <img src={hospital1} alt="" />
-            <img src={hospital2} alt="" />
-            <img src={hospital3} alt="" />
-            <img src={hospital4} alt="" />
-            <img src={hospital5} alt="" />
+            <img
+              src={hospital1}
+              alt=""
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="2000"
+            />
+            <img
+              src={hospital2}
+              alt=""
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="2500"
+            />
+            <img
+              src={hospital3}
+              alt=""
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="3000"
+            />
+            <img
+              src={hospital4}
+              alt=""
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="3500"
+            />
+            <img
+              src={hospital5}
+              alt=""
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="4000"
+            />
           </div>
         </div>
       </div>

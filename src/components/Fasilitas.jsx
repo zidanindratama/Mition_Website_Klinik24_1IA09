@@ -9,7 +9,7 @@ const Fasilitas = () => {
     <>
       <div className="w-full bg-primary-gray-bg py-24">
         <div className="xl:max-w-6xl m-auto grid md:grid-cols-2 max-w-[600px] px-4 md:px-0 gap-8 items-center">
-          <div className="">
+          <div className="" data-aos="zoom-in" data-aos-duration="2000">
             <h1 className="heading__small">
               Menghadirkan Kemewahan yang Tak Tertanding, Fasilitas Mewah untuk
               Kenyamanan Anda!
@@ -33,7 +33,13 @@ const Fasilitas = () => {
             </Link>
           </div>
           <div className="mx-auto md:order-last order-first">
-            <img src={fasilitas} alt="" className="w-[100px] md:w-[450px]" />
+            <img
+              src={fasilitas}
+              alt=""
+              className="w-[380px] md:w-[450px]"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+            />
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const FormKlinik = () => {
   return (
     <div className="w-full bg-primary-gray-bg py-36">
       <div className="md:max-w-5xl m-auto max-w-[600px] px-4 md:px-0">
-        <div className="flex flex-col">
+        <div className="flex flex-col" data-aos="fade-down">
           <h1 className="heading__small text-center max-w-2xl mx-auto">
             Kami Senang Mendengarkan Kabar Darimu, Hubungi Kami Sekarang
           </h1>
@@ -17,11 +17,13 @@ const FormKlinik = () => {
             type="text"
             placeholder="Nama"
             className="outline-none py-3 w-full px-9 card_shadow rounded-lg bg-[#EAF0F7]"
+            data-aos="fade-right"
           />
           <input
             type="email"
             placeholder="Email"
             className="outline-none py-3 w-full px-9 card_shadow rounded-lg bg-[#EAF0F7]"
+            data-aos="fade-left"
           />
         </div>
         <textarea
@@ -29,6 +31,7 @@ const FormKlinik = () => {
           rows="10"
           placeholder="Pesan..."
           className="outline-none py-3 w-full px-9 card_shadow rounded-lg bg-[#EAF0F7] mt-12"
+          data-aos="fade-up"
         ></textarea>
         <Button
           icon={<CiStethoscope size={30} />}
