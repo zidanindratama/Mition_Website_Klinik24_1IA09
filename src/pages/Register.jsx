@@ -23,13 +23,13 @@ const Register = () => {
             </p>
           </div>
         </div>
-        <div className="mx-auto" data-aos="fade-right">
+        <div className="mx-auto" data-aos="fade-up">
           <div className="flex flex-col">
             <img src={hospital7} alt="" className="rounded-lg" />
           </div>
         </div>
         <div className="mt-10 md:mt-0">
-          <div className="flex flex-col md:hidden mb-10" data-aos="fade-down">
+          <div className="flex flex-col md:hidden mb-10" data-aos="fade-up">
             <h1 className="font-semibold text-[40px]">Register Untuk</h1>
             <h1 className="font-semibold text-[40px]">Mereservasi Ke Dokter</h1>
             <p className="text-[18px] mt-3">
@@ -39,7 +39,7 @@ const Register = () => {
               </Link>
             </p>
           </div>
-          <div className="flex flex-col" data-aos="fade-left">
+          <div className="flex flex-col" data-aos="fade-up">
             <div>
               <p className="mb-2 text-primary-text-gray font-light md:block hidden">
                 Email
@@ -102,7 +102,7 @@ const Register = () => {
               text={"Register"}
             />
           </div>
-          <div className="flex flex-col mt-10" data-aos="fade-left">
+          <div className="flex flex-col mt-10" data-aos="fade-down">
             <p className="text-primary-text-gray font-light text-center">
               Atau login dengan
             </p>

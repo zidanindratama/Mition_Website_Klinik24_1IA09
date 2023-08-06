@@ -26,7 +26,7 @@ const Login = () => {
             </p>
           </div>
         </div>
-        <div className="mx-auto" data-aos="fade-right">
+        <div className="mx-auto" data-aos="fade-up">
           <div className="flex flex-col">
             <img src={hospital6} alt="" className="rounded-lg" />
           </div>
@@ -42,7 +42,7 @@ const Login = () => {
               </Link>
             </p>
           </div>
-          <div className="flex flex-col" data-aos="fade-left">
+          <div className="flex flex-col" data-aos="fade-up">
             <div>
               <p className="mb-2 text-primary-text-gray font-light md:block hidden">
                 Email
@@ -75,7 +75,7 @@ const Login = () => {
               text={"Login"}
             />
           </div>
-          <div className="flex flex-col mt-10" data-aos="fade-left">
+          <div className="flex flex-col mt-10" data-aos="fade-up">
             <p className="text-primary-text-gray font-light text-center">
               Atau login dengan
             </p>

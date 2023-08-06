@@ -15,11 +15,11 @@ const AboutUs = () => {
         </div>
         <div
           className="grid md:grid-cols-2 grid-cols-1 gap-12 items-center"
-          data-aos="fade-right"
+          data-aos="fade-up"
         >
           <div
             className="grid grid-cols-2 overflow-hidden gap-2"
-            data-aos="fade-left"
+            data-aos="fade-up"
           >
             <img
               src={hospital9}
@@ -42,7 +42,7 @@ const AboutUs = () => {
               className="w-full object-cover rounded-md"
             />
           </div>
-          <div data-aos="fade-left">
+          <div data-aos="fade-up">
             <p className="text-primary-text-gray text-justify font-normal">
               Kami dengan bangga mempersembahkan proyek web kami yang inovatif
               dan menarik, bertemakan e-health, sebagai hasil kerja keras kami

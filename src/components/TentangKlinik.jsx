@@ -76,7 +76,7 @@ const TentangKlinik = () => {
         </div>
         <div
           className="flex justify-end md:order-last order-first"
-          data-aos="fade-left"
+          data-aos="fade-down"
         >
           <img src={hospital13} alt="" className="rounded-lg" />
         </div>

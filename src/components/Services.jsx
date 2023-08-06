@@ -12,14 +12,14 @@ const Services = () => {
           <div className="grid md:grid-cols-2 mb-[30px]">
             <h1
               className="heading__small pb-[30px] md:pb-0"
-              data-aos="fade-right"
+              data-aos="fade-down"
               data-aos-duration="2000"
             >
               Daftar Layanan
             </h1>
             <p
               className="text__heading-small text-justify"
-              data-aos="fade-left"
+              data-aos="fade-down"
               data-aos-duration="2000"
             >
               Kami bangga menyediakan beragam layanan kesehatan yang luar biasa

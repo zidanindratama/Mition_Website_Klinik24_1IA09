@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="xl:max-w-6xl m-auto grid md:grid-cols-2 max-w-[600px] px-4 md:px-0">
           <div
             className="my-auto"
-            data-aos="fade-right"
+            data-aos="fade-down"
             data-aos-duration="2000"
           >
             <h1 className="heading__big md:text-[40px] xl:text-[50px] text-[30px] text-center md:text-left">
@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
           <div
             className="flex justify-end md:order-last order-first"
-            data-aos="fade-left"
+            data-aos="fade-down"
             data-aos-duration="2000"
           >
             <img src={heroDoctor} alt="" />

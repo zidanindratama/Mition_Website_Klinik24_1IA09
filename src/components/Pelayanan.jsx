@@ -11,14 +11,14 @@ const Pelayanan = () => {
         <div className="xl:max-w-6xl m-auto grid md:grid-cols-2 max-w-[600px] px-4 md:px-0 gap-8">
           <div
             className="flex justify-start"
-            data-aos="fade-right"
+            data-aos="fade-up"
             data-aos-duration="2000"
           >
             <img src={pelayanan} alt="" />
           </div>
           <div
             className="mt-11 md:mt-3"
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-duration="2000"
           >
             <h1 className="heading__small">

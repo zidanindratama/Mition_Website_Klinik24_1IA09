@@ -17,13 +17,13 @@ const FormKlinik = () => {
             type="text"
             placeholder="Nama"
             className="outline-none py-3 w-full px-9 card_shadow rounded-lg bg-[#EAF0F7]"
-            data-aos="fade-right"
+            data-aos="fade-up"
           />
           <input
             type="email"
             placeholder="Email"
             className="outline-none py-3 w-full px-9 card_shadow rounded-lg bg-[#EAF0F7]"
-            data-aos="fade-left"
+            data-aos="fade-up"
           />
         </div>
         <textarea
