@@ -16,8 +16,8 @@ const CardDokter = (doctor) => {
       <div className="flex flex-col p-5">
         <h1 className="font-bold text-[20px] mb-2">{doctor.nama}</h1>
         <p className="text-primary-green mb-2">${doctor.harga}</p>
-        <div className="flex flex-col md:flex-row justify-between mb-3">
-          <p className="font-light text-primary-text-gray md:mb-o mb-3">Umum</p>
+        <div className="flex flex-col md:flex-row justify-between mb-3 items-center">
+          <p className="font-light text-primary-text-gray md:mb-0 mb-3">Umum</p>
           <RatingStar rating={doctor.rating} />
         </div>
         <Link
