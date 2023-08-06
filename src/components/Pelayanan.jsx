@@ -12,7 +12,7 @@ const Pelayanan = () => {
           <div className="flex justify-start">
             <img src={pelayanan} alt="" />
           </div>
-          <div className="md:mt-24 mt-11">
+          <div className="mt-11 md:mt-3">
             <h1 className="heading__small">
               Pelayanan Terbaik Dari Para Ahli Medis
             </h1>
