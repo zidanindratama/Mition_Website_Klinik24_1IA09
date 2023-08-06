@@ -17,7 +17,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="hidden md:flex items-center">
-            <ul className="flex gap-4">
+            <ul className="flex gap-12">
               <Link className="text-primary-text-gray" to="/">
                 Beranda
               </Link>
@@ -29,6 +29,9 @@ const Navbar = () => {
               </Link>
               <Link className="text-primary-text-gray" to="/dokter">
                 Dokter
+              </Link>
+              <Link className="text-primary-text-gray" to="/cart">
+                Cart
               </Link>
             </ul>
           </div>
@@ -69,6 +72,11 @@ const Navbar = () => {
             <li className="p-4">
               <Link className="text-primary-text-gray" to="/dokter">
                 Dokter
+              </Link>
+            </li>
+            <li className="p-4">
+              <Link className="text-primary-text-gray" to="/cart">
+                Cart
               </Link>
             </li>
             <div className="flex flex-col my-4 gap-4">
