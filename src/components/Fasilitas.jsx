@@ -28,7 +28,7 @@ const Fasilitas = () => {
                 style={
                   "flex items-center w-full md:w-max justify-center blue-button"
                 }
-                text={"Reservasi"}
+                text={"Lihat Pelayanan"}
               />
             </Link>
           </div>

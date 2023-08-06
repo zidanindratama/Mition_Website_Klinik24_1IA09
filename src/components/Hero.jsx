@@ -19,13 +19,13 @@ const Hero = () => {
               memastikan setiap langkah perawatan Anda di Klinik24 terjamin
               efisien, akurat, dan tepat sasaran.
             </p>
-            <Link to="dokter">
+            <Link to="pelayanan">
               <Button
                 icon={<CiStethoscope size={30} />}
                 style={
                   "flex items-center w-full md:w-max justify-center blue-button"
                 }
-                text={"Lihat layanan"}
+                text={"Lihat Layanan"}
               />
             </Link>
           </div>
