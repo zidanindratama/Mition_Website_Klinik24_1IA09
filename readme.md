@@ -24,7 +24,38 @@ Pastikan komputer anda sudah terinstall npm
 ```
 
 - Instalasi sudah berhasil, lalu klik url localhost yangg ada pada terminal
-  ## Referensi Warna
+
+## Fitur
+
+- **Animation on Scroll**
+
+  - Tambahkan elemen animasi yang menarik saat pengguna menggulir halaman.
+  - Buat pengalaman yang lebih interaktif dan menarik bagi pengguna.
+
+- **Live Search**
+
+  - Sediakan fitur pencarian langsung yang memungkinkan pengguna mencari konten secara real-time.
+  - Tampilkan hasil pencarian saat pengguna mengetik, menghemat waktu dan usaha.
+
+- **Payment Gateway Integration**
+  - Integrasi dengan layanan gateway pembayaran untuk memfasilitasi transaksi keuangan.
+  - Memungkinkan pengguna melakukan pembayaran dengan mudah dan aman.
+
+## Dependencies
+
+| Nama Package      | Versi   | Link NPM                                                    |
+| ----------------- | ------- | ----------------------------------------------------------- |
+| @stripe/stripe-js | ^1.54.2 | [npm link](https://www.npmjs.com/package/@stripe/stripe-js) |
+| aos               | ^2.3.4  | [npm link](https://www.npmjs.com/package/aos)               |
+| react             | ^18.2.0 | [npm link](https://www.npmjs.com/package/react)             |
+| react-dom         | ^18.2.0 | [npm link](https://www.npmjs.com/package/react-dom)         |
+| react-icons       | ^4.10.1 | [npm link](https://www.npmjs.com/package/react-icons)       |
+| react-router-dom  | ^6.14.2 | [npm link](https://www.npmjs.com/package/react-router-dom)  |
+| react-stripe-js   | ^1.1.5  | [npm link](https://www.npmjs.com/package/react-stripe-js)   |
+| tailwindcss       | ^3.3.3  | [npm link](https://www.npmjs.com/package/tailwindcss)       |
+| vite              | ^4.4.5  | [npm link](https://www.npmjs.com/package/vite)              |
+
+## Referensi Warna
 
 | Color             | Hex                                                              |
 | ----------------- | ---------------------------------------------------------------- |
