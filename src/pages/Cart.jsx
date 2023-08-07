@@ -28,7 +28,7 @@ const Cart = () => {
 
   const checkout = async () => {
     await fetch(
-      "https://server-stripe-klinik.up.railway.app/checkout",
+      "https://expressjs-production-368a.up.railway.app/checkout",
       {
         method: "POST",
         headers: {
@@ -36,7 +36,7 @@ const Cart = () => {
         },
         body: JSON.stringify({ items: cart.cartProducts }),
       },
-      { mode: "no-cors" }
+      { mode: "cors" }
     )
       .then((response) => {
         return response.json();
