@@ -26,12 +26,16 @@ const Cart = () => {
   // Calculate the total price of all products in the cart
   const totalPrice = cart.getTotalCost();
 
+  headers.append(
+    "Access-Control-Allow-Origin",
+    "https://server-stripe-klinik.up.railway.app"
+  );
+  headers.append("Access-Control-Allow-Credentials", "true");
+
   const checkout = async () => {
     await fetch("https://server-stripe-klinik.up.railway.app/checkout", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
+      mode: "cors",
       body: JSON.stringify({ items: cart.cartProducts }),
     })
       .then((response) => {
