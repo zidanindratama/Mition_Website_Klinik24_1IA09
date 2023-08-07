@@ -32,7 +32,6 @@ const Cart = () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Origin: "https://server-stripe-klinik.up.railway.app",
       },
       body: JSON.stringify({ items: cart.cartProducts }),
     })
