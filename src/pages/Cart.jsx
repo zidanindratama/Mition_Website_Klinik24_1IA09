@@ -36,7 +36,7 @@ const Cart = () => {
         },
         body: JSON.stringify({ items: cart.cartProducts }),
       },
-      { mode: "cors" }
+      { mode: "no-cors" }
     )
       .then((response) => {
         return response.json();
