@@ -3,6 +3,7 @@ import { CartContext } from "../context/CartContext";
 import { AiOutlineMinus, AiOutlinePlus, AiOutlineDelete } from "react-icons/ai";
 import { doctors } from "../dev-data/resources";
 import { EmptyCart } from "../components";
+import { CiWarning } from "react-icons/ci";
 
 const Cart = () => {
   const cart = useContext(CartContext);
@@ -56,16 +57,32 @@ const Cart = () => {
         ) : (
           <>
             <div className="hidden md:block">
-              <table className="w-full mt-12">
+              <div
+                className="py-6 flex items-center"
+                data-aos="fade-down"
+                data-aos-duration="3000"
+              >
+                <div className="p-4 bg-[#FFEEF0] rounded-xl">
+                  <CiWarning size={30} style={{ color: `#ED4459` }} />
+                </div>
+                <div className="px-3">
+                  <h1 className="text-xl font-semibold">Pembayaran Stripe</h1>
+                  <p className="text-[#6D737A]">
+                    Card Information : 4242 4242 4242 4242
+                  </p>
+                </div>
+              </div>
+              {/* card information | mm yy | cvc */}
+              <table className="w-full mt-12" data-aos="fade-up">
                 <thead>
                   <tr>
-                    <th className="text-left text-primary-text-gray">Gambar</th>
-                    <th className="text-left text-primary-text-gray">Nama</th>
-                    <th className="text-left text-primary-text-gray">Jenis</th>
-                    <th className="text-left text-primary-text-gray">Harga</th>
-                    <th className="text-left text-primary-text-gray">Sesi</th>
-                    <th className="text-left text-primary-text-gray">Total</th>
-                    <th className="text-left text-primary-text-gray">Aksi</th>
+                    <th className="text-left text-primary-dark">Gambar</th>
+                    <th className="text-left text-primary-dark">Nama</th>
+                    <th className="text-left text-primary-dark">Jenis</th>
+                    <th className="text-left text-primary-dark">Harga</th>
+                    <th className="text-left text-primary-dark">Sesi</th>
+                    <th className="text-left text-primary-dark">Total</th>
+                    <th className="text-left text-primary-dark">Aksi</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -140,7 +157,7 @@ const Cart = () => {
                   })}
                 </tbody>
               </table>
-              <div className="mt-4">
+              <div className="mt-4" data-aos="fade-up">
                 <p className="text-primary-text-gray text-lg font-bold mr-2 mb-6">
                   Total Price:
                   <span className="text-primary-green ml-5">
@@ -160,8 +177,22 @@ const Cart = () => {
                 </button>
               </div>
             </div>
-            <div className="md:hidden">
-              <h1 className="text-primary-dark font-bold mb-8">Cart</h1>
+            <div className="md:hidden" data-aos="fade-up">
+              <div
+                className="py-6 flex items-center"
+                data-aos="fade-down"
+                data-aos-duration="3000"
+              >
+                <div className="p-4 bg-[#FFEEF0] rounded-xl">
+                  <CiWarning size={30} style={{ color: `#ED4459` }} />
+                </div>
+                <div className="px-3">
+                  <h1 className="text-xl font-semibold">Pembayaran Stripe</h1>
+                  <p className="text-[#6D737A]">
+                    Card Information : 4242 4242 4242 4242
+                  </p>
+                </div>
+              </div>
 
               {cart.cartProducts.map((product) => {
                 const dokter = doctors.find((d) => d.id === product.id);

@@ -21,7 +21,7 @@ const TentangKlinik = () => {
           </p>
           <div className="grid md:grid-cols-2 justify-center">
             <div
-              className="py-6 flex"
+              className="py-6 flex items-center"
               data-aos="fade-up"
               data-aos-duration="5000"
             >
@@ -34,7 +34,7 @@ const TentangKlinik = () => {
               </div>
             </div>
             <div
-              className="py-6 flex"
+              className="py-6 flex items-center"
               data-aos="fade-up"
               data-aos-duration="4000"
             >
@@ -47,7 +47,7 @@ const TentangKlinik = () => {
               </div>
             </div>
             <div
-              className="py-6 flex"
+              className="py-6 flex items-center"
               data-aos="fade-up"
               data-aos-duration="3000"
             >
@@ -60,7 +60,7 @@ const TentangKlinik = () => {
               </div>
             </div>
             <div
-              className="py-6 flex"
+              className="py-6 flex items-center"
               data-aos="fade-up"
               data-aos-duration="2000"
             >
