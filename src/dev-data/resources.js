@@ -8,6 +8,7 @@ import {
   pasien3,
   pasien4,
 } from "../assets";
+import { Error } from "../pages";
 
 export const testimonials = [
   {
@@ -332,3 +333,9 @@ export const doctors = [
     tahunPengalaman: 6,
   },
 ];
+
+export const getDoctorsData = (id) => {
+  const dokterData = doctors.find((d) => d.id === parseInt(id));
+
+  return dokterData;
+};

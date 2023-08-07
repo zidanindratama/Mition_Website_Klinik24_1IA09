@@ -1,12 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { logoPNG, logoSVG, hamburgerMenu, close } from "../assets";
 import { CiStethoscope } from "react-icons/ci";
 import Button from "./Button";
 import { Link } from "react-router-dom";
+import { CartContext } from "../context/CartContext";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => setToggle(!toggle);
+
+  const cart = useContext(CartContext);
+
+  // Get the total quantity of products in the cart
+  const totalProductQuantity = cart.cartProducts.reduce(
+    (total, product) => total + product.quantity,
+    0
+  );
+
   return (
     <>
       <div className="w-full h-[80px] fixed bg-primary-gray-bg/80 backdrop-blur-md z-50">
@@ -30,9 +40,15 @@ const Navbar = () => {
               <Link className="text-primary-text-gray" to="/dokter">
                 Dokter
               </Link>
-              <Link className="text-primary-text-gray" to="/cart">
-                Cart
-              </Link>
+              {totalProductQuantity > 0 ? (
+                <Link className="text-primary-text-gray" to="/cart">
+                  Cart ({totalProductQuantity})
+                </Link>
+              ) : (
+                <Link className="text-primary-text-gray" to="/cart">
+                  Cart
+                </Link>
+              )}
             </ul>
           </div>
           <Link to="register">
@@ -75,10 +91,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="p-4">
-              <Link className="text-primary-text-gray" to="/cart">
-                Cart
-              </Link>
+              {totalProductQuantity > 0 ? (
+                <Link className="text-primary-text-gray" to="/cart">
+                  Cart ({totalProductQuantity})
+                </Link>
+              ) : (
+                <Link className="text-primary-text-gray" to="/cart">
+                  Cart
+                </Link>
+              )}
             </li>
+
             <div className="flex flex-col my-4 gap-4">
               <Link to="register">
                 <Button

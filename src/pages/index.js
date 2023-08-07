@@ -1,4 +1,5 @@
 import AboutUs from "./AboutUs";
+import Cart from "./Cart";
 import Dokter from "./Dokter";
 import DokterDetail from "./DokterDetail";
 import Error from "./Error";
@@ -16,4 +17,5 @@ export {
   Layanan,
   Dokter,
   DokterDetail,
+  Cart,
 };
