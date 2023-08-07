@@ -256,7 +256,7 @@ const Cart = () => {
                           <AiOutlinePlus />
                         </button>
                       </div>
-                      <h1>
+                      <h1 className="text-primary-green">
                         Sub total : <span>$ {total}</span>
                       </h1>
                     </div>
