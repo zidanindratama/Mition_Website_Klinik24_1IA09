@@ -7,6 +7,7 @@ import LandingPage from "./LandingPage";
 import Layanan from "./Layanan";
 import Login from "./Login";
 import Register from "./Register";
+import Success from "./Success";
 
 export {
   LandingPage,
@@ -18,4 +19,5 @@ export {
   Dokter,
   DokterDetail,
   Cart,
+  Success,
 };

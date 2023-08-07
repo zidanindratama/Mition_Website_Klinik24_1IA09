@@ -12,6 +12,7 @@
   "dependencies": {
     "@stripe/stripe-js": "^1.54.2",
     "aos": "^2.3.4",
+    "framer-motion": "^10.15.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",

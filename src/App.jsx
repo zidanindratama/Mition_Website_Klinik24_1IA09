@@ -11,6 +11,7 @@ import {
   Dokter,
   DokterDetail,
   Cart,
+  Success,
 } from "./pages";
 import { Footer, Navbar } from "./components";
 import ScrollToTop from "./helpers/ScrollToTop";
@@ -38,6 +39,7 @@ const App = () => {
           <Route path="dokter" element={<Dokter />} />
           <Route path="dokter/:id" element={<DokterDetail />} />
           <Route path="cart" element={<Cart />} />
+          <Route path="success" element={<Success />} />
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

@@ -1,6 +1,24 @@
-const styles = {
-  boxNavbar: "w-full h-[80px] fixed bg-primary-gray-bg/80 backdrop-blur-md",
-  boxWidth:
-    "md:max-w-[1480px] m-auto grid md:grid-cols-2 max-w-[600px] px-4 md:px-0",
-  boxWidth2: "xl:max-w-[1280px] w-full",
+import { motion } from "framer-motion";
+
+const transition = (OgComponent) => {
+  return () => {
+    <>
+      <OgComponent />
+      <motion.div
+        className="slide-in"
+        initial={{ scaleY: 0 }}
+        animate={{ scaleY: 0 }}
+        exit={{ scaleY: 1 }}
+        transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+      />
+      <motion.div
+        className="slide-out"
+        initial={{ scaleY: 1 }}
+        animate={{ scaleY: 0 }}
+        exit={{ scaleY: 0 }}
+        transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+      />
+    </>;
+  };
 };
+export default transition;
