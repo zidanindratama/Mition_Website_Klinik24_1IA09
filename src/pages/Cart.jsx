@@ -27,13 +27,17 @@ const Cart = () => {
   const totalPrice = cart.getTotalCost();
 
   const checkout = async () => {
-    await fetch("https://server-stripe-klinik.up.railway.app/checkout", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
+    await fetch(
+      "https://server-stripe-klinik.up.railway.app/checkout",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ items: cart.cartProducts }),
       },
-      body: JSON.stringify({ items: cart.cartProducts }),
-    })
+      { mode: "cors" }
+    )
       .then((response) => {
         return response.json();
       })
