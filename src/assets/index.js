@@ -28,6 +28,12 @@ import dokter1 from "./dokter-1.jpg";
 import dokter2 from "./dokter-2.jpg";
 import dokter3 from "./dokter-3.jpg";
 import dokter4 from "./dokter-4.jpg";
+import dokter5 from "./dokter-5.jpg";
+import dokter6 from "./dokter-6.jpg";
+import dokter7 from "./dokter-7.jpg";
+import dokter8 from "./dokter-8.jpg";
+import dokter9 from "./dokter-9.jpg";
+import dokter10 from "./dokter-10.jpg";
 
 export {
   logoSVG,
@@ -60,4 +66,10 @@ export {
   dokter2,
   dokter3,
   dokter4,
+  dokter5,
+  dokter6,
+  dokter7,
+  dokter8,
+  dokter9,
+  dokter10,
 };

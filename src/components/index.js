@@ -1,6 +1,7 @@
 import Button from "./Button";
 import CTA from "./CTA";
 import CardDokter from "./CardDokter";
+import EmptyCart from "./EmptyCart";
 import Fasilitas from "./Fasilitas";
 import Footer from "./Footer";
 import FormKlinik from "./FormKlinik";
@@ -30,4 +31,5 @@ export {
   FormKlinik,
   CardDokter,
   RatingStar,
+  EmptyCart,
 };

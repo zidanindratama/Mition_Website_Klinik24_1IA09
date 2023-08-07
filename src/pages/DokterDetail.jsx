@@ -13,7 +13,7 @@ import { CartContext } from "../context/CartContext";
 const DokterDetail = () => {
   const { id } = useParams();
 
-  const dokter = doctors.find((d) => d.id === parseInt(id));
+  const dokter = doctors.find((d) => d.id === id);
 
   if (!dokter) {
     return <Error />;
@@ -117,7 +117,7 @@ const DokterDetail = () => {
                   boxShadow: "0px 8px 23px 0px rgba(65, 132, 247, 0.24)",
                 }}
               >
-                Add to Cart
+                Reservasi
               </button>
             )}
             {productQuantity > 0 && (
@@ -131,7 +131,7 @@ const DokterDetail = () => {
                     boxShadow: "0px 8px 23px 0px rgba(65, 132, 247, 0.24)",
                   }}
                 >
-                  Remove All
+                  Hapus
                 </button>
                 <button onClick={handleDecreaseQuantity}>
                   <AiOutlineMinus />
