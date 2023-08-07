@@ -28,6 +28,7 @@ const Cart = () => {
 
   const checkout = async () => {
     await fetch("https://server-stripe-klinik.up.railway.app/checkout", {
+      mode: "no-cors",
       method: "POST",
       headers: {
         "Content-Type": "application/json",
