@@ -22,7 +22,7 @@ export const testimonials = [
     nama: "John",
     penyakit: "Demam Berdarah",
     deskripsi:
-      "Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      "Saya sangat terbantu dengan pelayanan yang diberikan. Tim medisnya sangat profesional dan perawatan yang saya terima selama mengidap demam berdarah sungguh mempercepat pemulihan saya.",
     foto: `${pasien1}`,
   },
   {
@@ -30,7 +30,7 @@ export const testimonials = [
     nama: "Olivia",
     penyakit: "Batuk Pilek",
     deskripsi:
-      "Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      "Pelayanan di klinik ini luar biasa. Meskipun hanya mengalami batuk pilek, saya merasa diperlakukan dengan ramah dan perawatan yang diberikan membuat saya merasa lebih baik dalam waktu singkat.",
     foto: `${pasien2}`,
   },
   {
@@ -38,7 +38,7 @@ export const testimonials = [
     nama: "Nadia",
     penyakit: "Tipes",
     deskripsi:
-      "Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      "Pengalaman saya di klinik ini sungguh positif. Saya didiagnosis dengan tipes dan tim medisnya sangat cepat tanggap dalam memberikan penanganan yang tepat. Saya pulih dengan cepat berkat perawatan yang mereka berikan.",
     foto: `${pasien3}`,
   },
   {
@@ -46,7 +46,7 @@ export const testimonials = [
     nama: "Alex",
     penyakit: "Check-up Rutin",
     deskripsi:
-      "Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.",
+      "Kunjungan rutin saya ke klinik ini selalu menyenangkan. Proses check-up berjalan lancar dan hasilnya selalu disampaikan dengan jelas oleh dokter. Saya merasa perhatian medis yang saya terima sangat berkualitas.",
     foto: `${pasien4}`,
   },
 ];

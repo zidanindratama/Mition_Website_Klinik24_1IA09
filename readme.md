@@ -9,6 +9,7 @@ Project web bertema e-health adalah sebuah laman web yang bertujuan untuk menyed
 ## Authors
 
 - [@zidanindratama](https://www.github.com/zidanindratama)
+- [@ashafaatadhis](https://github.com/Ashafaatadhis)
 
 ## Instalasi
 

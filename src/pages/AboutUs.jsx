@@ -63,7 +63,7 @@ const AboutUs = () => {
               mudah digunakan bagi pengguna
             </p>
             <Link
-              to="https://github.com/zidanindratama"
+              to="https://github.com/zidanindratama/Mition_Website_Klinik24_1IA09"
               className="underline text-primary-blue font-normal"
             >
               Tim E-Health Web Project.
